@@ -13,13 +13,12 @@ class App extends Component {
         }
     }
 
+    onSearchChange = (e) => this.setState({ search: e.target.value });
+
     componentDidMount() {
         fetch('http://jsonplaceholder.typicode.com/users')
-            .then(resp => resp.json())
-            .then(u => this.setState({ robots: u }));
+            .then(resp => resp.json()).then(u => this.setState({ robots: u }))
     }
-
-    onSearchChange = (e) => this.setState({ search: e.target.value });
 
     render() {
         const { search, robots } = this.state;
