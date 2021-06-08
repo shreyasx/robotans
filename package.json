@@ -2,17 +2,20 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shreyasx.github.io/robotans",
   "dependencies": {
+    "gh-pages": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "17.0.2",
     "react-redux": "^7.2.1",
     "react-scripts": "^3.4.3",
     "redux": "^4.0.5",
-    "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "tachyons": "^4.12.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
