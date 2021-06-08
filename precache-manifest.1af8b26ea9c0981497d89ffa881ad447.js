@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8fa3fdde326eaaec6a2bc505f86532b5",
+    "revision": "e64ff521655b4f62fe7c328f5900bdb5",
     "url": "/robotans/index.html"
   },
   {
-    "revision": "09dbea7ee899c6851ad2",
+    "revision": "b9c9e1a0c91f238cbc40",
     "url": "/robotans/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "95ac74448747a91a7c82",
+    "revision": "09ec9df17450590ca5b3",
     "url": "/robotans/static/css/main.0deb98ff.chunk.css"
   },
   {
-    "revision": "09dbea7ee899c6851ad2",
-    "url": "/robotans/static/js/2.0ef08eeb.chunk.js"
+    "revision": "b9c9e1a0c91f238cbc40",
+    "url": "/robotans/static/js/2.aab9b778.chunk.js"
   },
   {
     "revision": "f7e623707d9b37a3821ec4c3548a4309",
-    "url": "/robotans/static/js/2.0ef08eeb.chunk.js.LICENSE.txt"
+    "url": "/robotans/static/js/2.aab9b778.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95ac74448747a91a7c82",
-    "url": "/robotans/static/js/main.ab78e420.chunk.js"
+    "revision": "09ec9df17450590ca5b3",
+    "url": "/robotans/static/js/main.cd7afb59.chunk.js"
   },
   {
     "revision": "b75025518b9f7eb9397f",
